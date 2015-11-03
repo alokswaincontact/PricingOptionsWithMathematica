@@ -1,0 +1,104 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2812,         94]
+NotebookOptionsPosition[      2458,         77]
+NotebookOutlinePosition[      2804,         92]
+CellTagsIndexPosition[      2761,         89]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"a", " ", "\[Equal]", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", " ", "+", " ", "b", " ", "-", "0.95"}], ")"}], " ", "/", 
+       " ", "0.20"}]}], ",", " ", 
+     RowBox[{"5.424", " ", "\[Equal]", " ", 
+      RowBox[{"17.25", " ", "*", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"1", "+", "b"}], ")"}], 
+        RowBox[{"-", "2"}]], "*", 
+       SuperscriptBox["a", "2"]}]}]}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.655575915722169*^9, 3.6555761325496025`*^9}, {
+  3.655576171636874*^9, 3.6555762294425874`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "ratnz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Solve was unable to solve the system with inexact \
+coefficients. The answer was obtained by solving a corresponding exact system \
+and numericizing the result. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/Solve\\\", ButtonNote -> \
+\\\"Solve::ratnz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6555761786074867`*^9, 3.655576231019393*^9, 
+  3.6555762988673162`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"a", "\[Rule]", 
+      RowBox[{"-", "0.47898943277937`"}]}], ",", 
+     RowBox[{"b", "\[Rule]", 
+      RowBox[{"-", "0.145797886555874`"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"a", "\[Rule]", "0.5999966047228399`"}], ",", 
+     RowBox[{"b", "\[Rule]", "0.06999932094456797`"}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.655576133594805*^9, {3.6555761655624633`*^9, 3.655576178638687*^9}, 
+   3.655576231019393*^9, 3.6555762988673162`*^9}]
+}, Open  ]]
+},
+WindowSize->{860, 750},
+WindowMargins->{{Automatic, 337}, {-4, Automatic}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (December 4, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 723, 20, 33, "Input"],
+Cell[1306, 44, 574, 12, 39, "Message"],
+Cell[1883, 58, 559, 16, 88, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
